@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 #include<string>
 using namespace std;
 
@@ -8,6 +8,7 @@ struct Clothes
 	string color;
 	int size;
 	int heigh;
+
 
 	void enter_cloth()
 	{
@@ -36,7 +37,7 @@ void main()
 	bool f = true;
 
 	Clothes* cc;
-	cout << "Ââåäèòå êîëè÷åñòâî îäåæäû: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÐºÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ð¾Ð´ÐµÐ¶Ð´Ñ‹: ";
 	cin >> n;
 	cc = new Clothes[n];
 	for (int i = 0; i < n; i++)
@@ -45,9 +46,9 @@ void main()
 	}
 	while (true)
 	{
-		cout << "1 - Âûâåñòè ñïèñîê îäåæäû ñ ðàçìåðîì áîëüøå èëè ðàâíî çàäàííîìó." << endl;
-		cout << "2 - Âûâåñòè ñïèñîê îäåæäû ñ äëèíîé áîëüøå èëè ðàâíî çàäàííîìó." << endl;
-		cout << "3 - Âûâåñòè âåñü ñïèñîê." << endl;
+		cout << "1 - Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ ÑÐ¿Ð¸ÑÐ¾Ðº Ð¾Ð´ÐµÐ¶Ð´Ñ‹ Ñ Ñ€Ð°Ð·Ð¼ÐµÑ€Ð¾Ð¼ Ð±Ð¾Ð»ÑŒÑˆÐµ Ð¸Ð»Ð¸ Ñ€Ð°Ð²Ð½Ð¾ Ð·Ð°Ð´Ð°Ð½Ð½Ð¾Ð¼Ñƒ." << endl;
+		cout << "2 - Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ ÑÐ¿Ð¸ÑÐ¾Ðº Ð¾Ð´ÐµÐ¶Ð´Ñ‹ Ñ Ð´Ð»Ð¸Ð½Ð¾Ð¹ Ð±Ð¾Ð»ÑŒÑˆÐµ Ð¸Ð»Ð¸ Ñ€Ð°Ð²Ð½Ð¾ Ð·Ð°Ð´Ð°Ð½Ð½Ð¾Ð¼Ñƒ." << endl;
+		cout << "3 - Ð’Ñ‹Ð²ÐµÑÑ‚Ð¸ Ð²ÐµÑÑŒ ÑÐ¿Ð¸ÑÐ¾Ðº." << endl;
 		cin >> choice;
 		switch (choice)
 		{
